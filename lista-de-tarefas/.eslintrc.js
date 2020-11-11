@@ -22,5 +22,6 @@ module.exports = {
     'react/jsx-filename-extension': 0,
     'linebreak-style': 0,
     'global-require': 0,
+    'react/state-in-constructor': 0,
   },
 };
