@@ -23,7 +23,7 @@ export default class Main extends Component {
     if (tarefas.indexOf(novaTarefa) !== -1) return;
 
     const novasTarefas = [...tarefas];
-    if (indice !== -1) {
+    if (indice === -1) {
       this.setState({
         tarefas: [...novasTarefas, novaTarefa],
         novaTarefa: '',
