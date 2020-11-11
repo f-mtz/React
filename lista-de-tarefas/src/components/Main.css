@@ -64,3 +64,8 @@
     margin-right: 15px;
     background-color: #f04c64;
 }
+
+.tarefas li span {
+    display: flex;
+    align-items: center;
+}

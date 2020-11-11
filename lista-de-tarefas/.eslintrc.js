@@ -23,5 +23,6 @@ module.exports = {
     'linebreak-style': 0,
     'global-require': 0,
     'react/state-in-constructor': 0,
+    'import/no-duplicates': 0,
   },
 };
